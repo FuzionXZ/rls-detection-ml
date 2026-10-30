@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
+
+# trained models are tied to the local scikit-learn version; rebuild with: python main.py
+models/*.joblib
+
+# keep the paper out of the public repo (avoids plagiarism-checker self-matches)
+paper/
+*.docx
+rls_update.zip

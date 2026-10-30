@@ -1,0 +1,4 @@
+model,C,feature_selection_k,cv_roc_auc_mean,cv_roc_auc_std,configurations_tried,max_depth,min_samples_leaf,min_samples_split,max_features,n_estimators
+Logistic Regression,10,10,0.8631,0.0171,8,,,,,
+Decision Tree,,10,0.8372,0.0239,54,8,20,2,,
+Random Forest,,all,0.8474,0.0234,48,6,5,,sqrt,100

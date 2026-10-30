@@ -1,0 +1,61 @@
+{
+  "started": "2026-10-30T13:40:25",
+  "python": "3.14.3",
+  "scikit_learn": "1.9.1",
+  "random_state": 42,
+  "dataset": {
+    "rows": 1500,
+    "columns": 24,
+    "input_features": 20,
+    "missing_cells": 217,
+    "duplicate_rows": 0,
+    "rls": 790,
+    "no_rls": 710
+  },
+  "validation_warnings": [],
+  "label_consistency": {
+    "rls_with_no_core_symptoms": 111,
+    "no_rls_with_3plus_core_symptoms": 83
+  },
+  "split": {
+    "train": 1200,
+    "test": 300,
+    "train_rls_share": 0.5267,
+    "test_rls_share": 0.5267
+  },
+  "learning_curve_final": {
+    "train_size": 960,
+    "train_roc_auc": 0.8657,
+    "validation_roc_auc": 0.8631
+  },
+  "permutation_top3": [
+    {
+      "feature": "Symptoms_Improve_With_Movement",
+      "importance_mean": 0.0094
+    },
+    {
+      "feature": "Symptom_Frequency_Days_Week",
+      "importance_mean": 0.007
+    },
+    {
+      "feature": "Symptoms_Worse_Evening_Night",
+      "importance_mean": 0.007
+    }
+  ],
+  "leakage_check_accuracy_with_RLS_Severity": 1.0,
+  "best_model": "Logistic Regression",
+  "finished": "2026-10-30T13:41:10",
+  "runtime_seconds": 45.4,
+  "best_model_selected_features": [
+    "Sleep_Quality",
+    "Daytime_Sleepiness",
+    "Leg_Discomfort_Score",
+    "Symptom_Frequency_Days_Week",
+    "Sleep_Disturbance",
+    "Unpleasant_Leg_Sensation",
+    "Urge_to_Move_Legs",
+    "Symptoms_Improve_With_Movement",
+    "Symptoms_Worse_Evening_Night",
+    "Symptoms_While_Resting"
+  ]
+}

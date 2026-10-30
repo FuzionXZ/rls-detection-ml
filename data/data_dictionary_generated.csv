@@ -1,0 +1,25 @@
+column,description,type,range_or_values,role
+Patient_ID,Record identifier,text,RLS_0001 to RLS_1500,identifier (excluded from model)
+Age,Age in years,integer,18 to 85,input feature
+Gender,Recorded gender,categorical,Female / Male,input feature
+BMI,Body mass index (kg/m2),decimal,16.0 to 45.0 (30 missing),input feature
+Sleep_Duration_Hours,Average sleep per night (hours),decimal,3.5 to 10.0 (30 missing),input feature
+Sleep_Quality,Self-rated sleep quality,decimal,1 to 10 (37 missing),input feature
+Fatigue_Level,Self-rated fatigue,decimal,1 to 10 (30 missing),input feature
+Stress_Level,Self-rated stress,decimal,1 to 10,input feature
+Daytime_Sleepiness,Self-rated daytime sleepiness,decimal,1 to 10,input feature
+Physical_Activity_Level,Self-rated physical activity,decimal,1 to 10,input feature
+Anxiety_Level,Self-rated anxiety,decimal,1 to 10 (30 missing),input feature
+Ferritin_Level_ng_mL,Serum ferritin (ng/mL),decimal,8 to 184 (60 missing),input feature
+Family_History_RLS,Family history of RLS,binary,0 = no / 1 = yes,input feature
+Unpleasant_Leg_Sensation,Unpleasant sensations in the legs,binary,0 = no / 1 = yes,input feature
+Urge_to_Move_Legs,Urge to move the legs,binary,0 = no / 1 = yes,input feature
+Symptoms_Improve_With_Movement,Symptoms ease with movement,binary,0 = no / 1 = yes,input feature
+Symptoms_Worse_Evening_Night,Symptoms worse in the evening or at night,binary,0 = no / 1 = yes,input feature
+Symptoms_While_Resting,Symptoms start or worsen at rest,binary,0 = no / 1 = yes,input feature
+Leg_Discomfort_Score,Leg discomfort rating,integer,0 to 10,input feature
+Symptom_Frequency_Days_Week,Days per week with symptoms,integer,0 to 7,input feature
+Sleep_Disturbance,Sleep disturbance rating,integer,1 to 10,input feature
+RLS_Probability,Probability score derived from the outcome,decimal,0 to 1,leakage (excluded from model)
+RLS_Severity,Severity score; 0 for every No RLS record,decimal,0 to 13.2,leakage (excluded from model)
+RLS_Diagnosis,Target label,binary,0 = No RLS / 1 = RLS,target

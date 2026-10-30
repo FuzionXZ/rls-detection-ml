@@ -1,0 +1,5 @@
+Feature group,Number of features,Features,CV ROC-AUC (mean),Accuracy,Precision,Recall,F1-score,ROC-AUC
+A. Demographic and general,9,"Age, Gender, BMI, Fatigue_Level, Stress_Level, Physical_Activity_Level, Anxiety_Level, Ferritin_Level_ng_mL, Family_History_RLS",0.4973440422105287,0.49333333333333335,0.5148514851485149,0.6582278481012658,0.5777777777777777,0.503298270636477
+B. Sleep-related,4,"Sleep_Duration_Hours, Sleep_Quality, Daytime_Sleepiness, Sleep_Disturbance",0.5811778233899927,0.5266666666666666,0.5439560439560439,0.6265822784810127,0.5823529411764706,0.5707345337849884
+C. RLS symptom-related,7,"Unpleasant_Leg_Sensation, Urge_to_Move_Legs, Symptoms_Improve_With_Movement, Symptoms_Worse_Evening_Night, Symptoms_While_Resting, Leg_Discomfort_Score, Symptom_Frequency_Days_Week",0.8390793391937637,0.8066666666666666,0.8571428571428571,0.759493670886076,0.8053691275167785,0.8455607060082011
+D. All eligible features,20,all 20 eligible features,0.8407517469724762,0.8233333333333334,0.8571428571428571,0.7974683544303798,0.8262295081967214,0.8486361205205918

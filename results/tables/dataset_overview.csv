@@ -1,0 +1,25 @@
+column,dtype,non_missing,missing,unique_values,role
+Patient_ID,object,1500,0,1500,identifier (excluded)
+Age,int64,1500,0,68,input feature
+Gender,object,1500,0,2,input feature
+BMI,float64,1470,30,243,input feature
+Sleep_Duration_Hours,float64,1470,30,65,input feature
+Sleep_Quality,float64,1463,37,88,input feature
+Fatigue_Level,float64,1470,30,91,input feature
+Stress_Level,float64,1500,0,91,input feature
+Daytime_Sleepiness,float64,1500,0,91,input feature
+Physical_Activity_Level,float64,1500,0,91,input feature
+Anxiety_Level,float64,1470,30,91,input feature
+Ferritin_Level_ng_mL,float64,1440,60,829,input feature
+Family_History_RLS,int64,1500,0,2,input feature
+Unpleasant_Leg_Sensation,int64,1500,0,2,input feature
+Urge_to_Move_Legs,int64,1500,0,2,input feature
+Symptoms_Improve_With_Movement,int64,1500,0,2,input feature
+Symptoms_Worse_Evening_Night,int64,1500,0,2,input feature
+Symptoms_While_Resting,int64,1500,0,2,input feature
+Leg_Discomfort_Score,int64,1500,0,11,input feature
+Symptom_Frequency_Days_Week,int64,1500,0,8,input feature
+Sleep_Disturbance,int64,1500,0,10,input feature
+RLS_Probability,float64,1500,0,686,leakage (excluded)
+RLS_Severity,float64,1500,0,108,leakage (excluded)
+RLS_Diagnosis,int64,1500,0,2,target
